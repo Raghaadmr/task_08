@@ -16,10 +16,12 @@
             <li class="list-group-item text-center">
                 <a href="{% url 'restaurant-detail' restaurant.id %}" class="btn btn-outline-dark">View</a>
             </li>
+            <li>
+              <img src="{{restaurant.logo.url}}" alt="Hey noob!">
+            </li>
           </ul>
         </div>
     </div>
     {% endfor %}
 </div>
 {% endblock content %}
-

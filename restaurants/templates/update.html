@@ -13,6 +13,7 @@
             {% csrf_token %}
             {{form|crispy}}
             <input type="submit" value="Update" class="btn btn-outline-primary">
+              <img src="{{restaurant.logo.url}}" alt="Hey noob!">
         </form>
     </p>
   </div>
